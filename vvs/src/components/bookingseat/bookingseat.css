@@ -1,0 +1,198 @@
+.left{
+   flex: 1;
+   
+    display: flex;
+    
+
+    flex-wrap: wrap;
+}
+ .left button{
+    background: rgb(72, 70, 70);
+    color: antiquewhite;
+    width: 90px;
+    padding: 10px 20px;
+    height: 50px;
+    font-size: 10px;
+
+ }
+ .left button:hover{
+    background-color: rgb(62, 235, 120);
+    color: black;
+    transition: 0.3s;
+ }
+ .left .seat:active{
+    background: rgb(211, 21, 56);
+    color: rgb(238, 235, 235);
+ }
+
+ .bookingseat{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   justify-content: center;
+   
+
+ }
+
+ .screen{
+   background:linear-gradient(brown, white);
+   border: 1px 0px solid black;
+   margin: 10px 30px;
+   text-align: center;
+   font-size: large;
+   font-weight: 900;
+
+ }
+
+ .seats{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 60px;
+   
+ }
+
+ .middle{
+ flex: 1;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.middle button{
+   background: rgb(58, 56, 56);
+   color: antiquewhite;
+   width: 90px;
+   padding: 10px 20px;
+   height: 50px;
+   font-size: 10px;
+
+}
+
+
+.right{
+   display: flex;
+   gap: 20px;
+}
+
+.right .button{
+   background: brown;
+   color: antiquewhite;
+   width: 90px;
+   padding: 10px 20px;
+   height: 50px;
+   font-size: 10px;
+
+}
+
+.details{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   align-items: center;
+}
+
+.details span{
+   padding: 5px 15px;
+   border-radius: 20px;
+}
+
+.middle button:hover{
+   background-color: rgb(62, 235, 120);
+   color: black;
+   transition: 0.3s;
+}
+.middle button:active{
+   background: rgb(211, 21, 56);
+   color: rgb(245, 243, 243);
+}
+
+.dates{
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   margin-top: 30px;
+
+}
+
+.dates .leftdays{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   list-style: none;
+   background:linear-gradient(rgb(234, 17, 53),rgb(75, 35, 35));
+
+}
+
+.dates .rightdays{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   list-style: none;
+   background:linear-gradient(rgb(234, 17, 53),rgb(75, 35, 35));
+}
+
+
+
+.dates .leftdays .days{
+   display: flex;
+   gap: 6px;
+
+}
+
+
+.dates .rightdays .days{
+   display: flex;
+
+}
+
+.days ul{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   row-gap: 6px;
+ 
+  
+}
+
+.days ul li{
+   text-align: center;
+   color: white;
+   font-size: 14px;
+   font-weight: 700;
+   border: 0.5px solid black;
+   background: rgb(19, 19, 49);
+   padding: 0 1.0px;
+   cursor: pointer;
+  
+}
+
+.days ul .li{
+   color: rgb(46, 44, 44);
+   font-size: 15px;
+   font-weight: 800;
+   background: rgb(157, 164, 39);
+
+}
+.selected{
+   background: red;
+}
+
+.btn4{
+   background: goldenrod;
+   color: black;
+   border: none;
+   outline: none;
+   font-weight: 800;
+   font-size: 18px;
+   width: 400px;
+   margin: auto;
+   padding: 10px 20px;
+}
+
+.btn4:hover{
+   background: rgb(5, 50, 63);
+   color: blue;
+}
+
+

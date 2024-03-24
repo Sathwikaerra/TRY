@@ -1,0 +1,21 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background:linear-gradient(rgb(228, 49, 181),rgb(218, 177, 193));
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.link{
+    text-decoration: none;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}

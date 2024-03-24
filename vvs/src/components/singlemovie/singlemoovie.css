@@ -1,0 +1,67 @@
+.left img{
+   width: 600px;
+   height: 600px;
+}
+.left{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+
+}
+.right p{
+    display: flex;
+}
+
+.right p img{
+    height: 20px;
+    width: 20px;
+}
+.main{
+    margin: 30px 60px;
+    display: flex;
+    
+}
+.right{
+    flex: 1;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.p{
+    color: rgb(231, 26, 26);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+span{
+    font-size: 18px;
+    font-style: normal;
+    color: rgb(60, 61, 61);
+
+}
+
+.right button{
+    background: rgb(0, 0, 0);
+    border: 1px solid blue;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.right button:hover{
+    background: gold;
+    color: black;
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right a{
+    text-decoration: none;
+    color: aliceblue;
+}
